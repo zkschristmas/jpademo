@@ -1,0 +1,257 @@
+2019-07-10 22:00:18.699 [Thread-17] INFO -o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:00:18.702 [Thread-17] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:00:18.724 [Thread-17] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-10 22:00:31.757 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 336 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:00:31.764 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:00:32.771 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:00:32.880 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
+2019-07-10 22:00:33.350 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea3198d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:00:33.745 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:00:33.764 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:00:33.773 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:00:33.774 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:00:34.020 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:00:34.021 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2153 ms
+2019-07-10 22:00:34.346 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:00:34.657 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:00:34.752 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:00:34.754 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:00:34.977 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:00:35.187 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:00:36.080 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:00:36.749 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:00:37.067 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:00:37.117 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:00:37.119 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 6.08 seconds (JVM running for 7.929)
+2019-07-10 22:00:43.472 [http-nio-8080-exec-2] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:00:43.473 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:00:43.489 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 16 ms
+2019-07-10 22:03:23.252 [Thread-18] INFO -o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:03:23.253 [Thread-18] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:03:23.265 [Thread-18] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-10 22:03:32.236 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 7140 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:03:32.239 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:03:33.083 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:03:33.175 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 1 repository interfaces.
+2019-07-10 22:03:33.507 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cce22456] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:03:33.849 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:03:33.870 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:03:33.882 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:03:33.883 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:03:34.073 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:03:34.073 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1782 ms
+2019-07-10 22:03:34.329 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:03:34.555 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:03:34.650 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:03:34.652 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:03:34.833 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:03:35.007 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:03:35.644 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:03:36.203 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:03:36.460 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:03:36.491 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:03:36.493 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 4.77 seconds (JVM running for 6.089)
+2019-07-10 22:03:51.588 [http-nio-8080-exec-2] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:03:51.588 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:03:51.598 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 10 ms
+2019-07-10 22:04:21.886 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 15228 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:04:21.891 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:04:22.842 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:04:22.937 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 1 repository interfaces.
+2019-07-10 22:04:23.266 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$289ce9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:04:23.582 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:04:23.597 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:04:23.607 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:04:23.607 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:04:23.838 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:04:23.838 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1840 ms
+2019-07-10 22:04:24.169 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:04:24.440 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:04:24.507 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:04:24.508 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:04:24.635 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:04:24.769 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:04:25.458 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:04:25.954 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:04:26.217 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:04:26.244 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:04:26.246 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 5.001 seconds (JVM running for 6.254)
+2019-07-10 22:04:38.318 [http-nio-8080-exec-1] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:04:38.318 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:04:38.328 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 10 ms
+2019-07-10 22:05:45.222 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 14948 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:05:45.225 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:05:46.007 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:05:46.083 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 1 repository interfaces.
+2019-07-10 22:05:46.401 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb7d904a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:05:46.687 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:05:46.705 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:05:46.714 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:05:46.714 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:05:46.954 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:05:46.955 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1679 ms
+2019-07-10 22:05:47.252 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:05:47.509 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:05:47.579 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:05:47.580 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:05:47.706 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:05:47.841 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:05:48.384 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:05:48.885 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:05:49.135 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:05:49.162 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:05:49.163 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 4.486 seconds (JVM running for 5.918)
+2019-07-10 22:05:56.971 [http-nio-8080-exec-1] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:05:56.971 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:05:56.980 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 9 ms
+2019-07-10 22:09:38.704 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 4880 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:09:38.713 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:09:39.720 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:09:39.858 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 122ms. Found 1 repository interfaces.
+2019-07-10 22:09:40.367 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80390b2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:09:40.760 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:09:40.783 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:09:40.797 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:09:40.797 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:09:40.954 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:09:40.954 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2149 ms
+2019-07-10 22:09:41.315 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:09:41.676 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:09:41.763 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:09:41.766 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:09:42.085 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:09:42.250 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:09:42.950 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:09:43.561 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:09:43.861 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:09:43.894 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:09:43.897 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 5.936 seconds (JVM running for 7.43)
+2019-07-10 22:10:00.812 [http-nio-8080-exec-3] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:10:00.813 [http-nio-8080-exec-3] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:10:00.827 [http-nio-8080-exec-3] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 14 ms
+2019-07-10 22:11:02.262 [Thread-18] INFO -o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:11:02.264 [Thread-18] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:11:02.284 [Thread-18] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-10 22:11:14.055 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 14844 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:11:14.061 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:11:15.108 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:11:15.227 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109ms. Found 1 repository interfaces.
+2019-07-10 22:11:15.865 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d43ab220] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:11:16.318 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:11:16.340 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:11:16.356 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:11:16.357 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:11:16.612 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:11:16.612 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2483 ms
+2019-07-10 22:11:16.982 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:11:17.271 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:11:17.360 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:11:17.362 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:11:17.503 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:11:17.676 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:11:18.491 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:11:19.046 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:11:19.373 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:11:19.410 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:11:19.414 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 6.043 seconds (JVM running for 7.971)
+2019-07-10 22:11:38.002 [http-nio-8080-exec-2] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:11:38.002 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:11:38.012 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 10 ms
+2019-07-10 22:12:39.641 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 11180 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:12:39.645 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:12:40.389 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:12:40.467 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2019-07-10 22:12:40.781 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aecdc9f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:12:41.088 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:12:41.103 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:12:41.113 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:12:41.113 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:12:41.331 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:12:41.331 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1631 ms
+2019-07-10 22:12:41.588 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:12:41.807 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:12:41.867 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:12:41.869 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:12:42.014 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:12:42.147 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:12:42.684 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:12:43.191 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:12:43.434 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:12:43.462 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:12:43.465 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 4.312 seconds (JVM running for 5.714)
+2019-07-10 22:12:51.858 [http-nio-8080-exec-1] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:12:51.859 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:12:51.873 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 14 ms
+2019-07-10 22:18:45.384 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 13548 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:18:45.388 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:18:46.516 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:18:46.612 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84ms. Found 1 repository interfaces.
+2019-07-10 22:18:47.573 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45b63ba3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:18:47.933 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:18:47.955 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:18:47.966 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:18:47.967 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:18:48.132 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:18:48.133 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2670 ms
+2019-07-10 22:18:48.454 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:18:48.738 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:18:48.854 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:18:48.857 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:18:49.091 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:18:49.317 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:18:50.454 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:18:51.031 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:18:51.338 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:18:51.373 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:18:51.376 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 6.661 seconds (JVM running for 8.401)
+2019-07-10 22:19:04.074 [http-nio-8080-exec-2] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:19:04.075 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:19:04.090 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 15 ms
+2019-07-10 22:32:32.152 [Thread-21] INFO -o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:32:32.152 [Thread-21] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:32:32.161 [Thread-21] INFO -c.a.d.p.DruidDataSource - {dataSource-1} closed
+2019-07-10 22:32:41.002 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 15044 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-07-10 22:32:41.006 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-07-10 22:32:41.782 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 22:32:41.859 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-07-10 22:32:42.172 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3df4c5fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 22:32:42.454 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-10 22:32:42.471 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:32:42.481 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-07-10 22:32:42.481 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-10 22:32:42.703 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 22:32:42.703 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1648 ms
+2019-07-10 22:32:42.981 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-07-10 22:32:43.221 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 22:32:43.279 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 22:32:43.280 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-07-10 22:32:43.396 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 22:32:43.520 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 22:32:44.090 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 22:32:44.639 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 22:32:44.911 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-10 22:32:44.939 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-10 22:32:44.942 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 4.465 seconds (JVM running for 5.66)
+2019-07-10 22:32:53.170 [http-nio-8080-exec-1] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 22:32:53.170 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 22:32:53.185 [http-nio-8080-exec-1] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 14 ms
+2019-07-10 22:33:29.229 [http-nio-8080-exec-4] INFO -c.y.j.w.c.LoginUserController - 访问查询所有用户info
+2019-07-10 22:33:29.322 [http-nio-8080-exec-4] INFO -o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory

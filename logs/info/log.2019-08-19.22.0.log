@@ -1,0 +1,56 @@
+2019-08-19 22:40:53.586 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 7640 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-08-19 22:40:53.590 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-08-19 22:40:54.311 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-19 22:40:54.386 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-08-19 22:40:54.662 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23b54176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-19 22:40:54.903 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-19 22:40:54.917 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-19 22:40:54.924 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-08-19 22:40:54.924 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-19 22:40:55.059 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-08-19 22:40:55.059 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1409 ms
+2019-08-19 22:40:55.479 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 22:40:55.767 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-19 22:40:55.897 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-19 22:40:55.898 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-08-19 22:40:56.101 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-19 22:40:56.220 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-19 22:40:56.764 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-19 22:40:57.196 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 22:40:57.560 [main] INFO -o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7871d261, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c5406b, org.springframework.security.web.header.HeaderWriterFilter@288728e, org.springframework.security.web.csrf.CsrfFilter@1f7e52d1, org.springframework.security.web.authentication.logout.LogoutFilter@1de5cc88, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43e8f1c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@482a58c7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@58164e9a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46d0f89c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74a58a06, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d40498a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11bfffb3, org.springframework.security.web.session.SessionManagementFilter@641ed324, org.springframework.security.web.access.ExceptionTranslationFilter@52d7ab79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@638afcaa]
+2019-08-19 22:40:57.622 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-19 22:40:57.648 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-19 22:40:57.650 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 4.713 seconds (JVM running for 7.722)
+2019-08-19 22:43:58.587 [http-nio-8080-exec-2] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 22:43:58.587 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 22:43:58.595 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 8 ms
+2019-08-19 22:47:03.687 [main] INFO -c.y.j.JpademoApplication - Starting JpademoApplication on DESKTOP-7PJL8GN with PID 7200 (D:\mywork\jpademo\target\classes started by 圣 in D:\mywork\jpademo)
+2019-08-19 22:47:03.690 [main] INFO -c.y.j.JpademoApplication - No active profile set, falling back to default profiles: default
+2019-08-19 22:47:04.287 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-19 22:47:04.336 [main] INFO -o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 1 repository interfaces.
+2019-08-19 22:47:04.562 [main] INFO -o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23b54176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-19 22:47:04.752 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-08-19 22:47:04.762 [main] INFO -o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-19 22:47:04.769 [main] INFO -o.a.c.c.StandardService - Starting service [Tomcat]
+2019-08-19 22:47:04.769 [main] INFO -o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-19 22:47:04.863 [main] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-08-19 22:47:04.863 [main] INFO -o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1130 ms
+2019-08-19 22:47:05.030 [main] INFO -c.a.d.p.DruidDataSource - {dataSource-1} inited
+2019-08-19 22:47:05.187 [main] INFO -o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-19 22:47:05.226 [main] INFO -o.h.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-19 22:47:05.227 [main] INFO -o.h.c.Environment - HHH000206: hibernate.properties not found
+2019-08-19 22:47:05.314 [main] INFO -o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-19 22:47:05.394 [main] INFO -o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-19 22:47:05.780 [main] INFO -o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-19 22:47:06.126 [main] INFO -o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 22:47:06.375 [main] INFO -o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d17423f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1689527c, org.springframework.security.web.header.HeaderWriterFilter@394fb736, org.springframework.security.web.csrf.CsrfFilter@5940b14e, org.springframework.security.web.authentication.logout.LogoutFilter@69bc9584, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@221b77d7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@464aeb09, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5c70d7f0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d108406, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c7cd434, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aa22cc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@582dcd35, org.springframework.security.web.session.SessionManagementFilter@3271ec2a, org.springframework.security.web.access.ExceptionTranslationFilter@28554ac8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e0d16a4]
+2019-08-19 22:47:06.415 [main] INFO -o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-19 22:47:06.434 [main] INFO -o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-19 22:47:06.436 [main] INFO -c.y.j.JpademoApplication - Started JpademoApplication in 3.189 seconds (JVM running for 4.007)
+2019-08-19 22:47:28.209 [http-nio-8080-exec-2] INFO -o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-19 22:47:28.209 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-19 22:47:28.216 [http-nio-8080-exec-2] INFO -o.s.w.s.DispatcherServlet - Completed initialization in 6 ms

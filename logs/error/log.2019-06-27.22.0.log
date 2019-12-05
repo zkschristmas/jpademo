@@ -1,0 +1,4 @@
+2019-06-27 22:38:36.362 [main] WARN -o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-27 22:38:42.422 [http-nio-8080-exec-3] ERROR-c.y.j.w.c.LoginUserController - 访问查询所有用户
+2019-06-27 22:39:14.925 [main] WARN -o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-27 22:39:31.419 [http-nio-8080-exec-2] ERROR-c.y.j.w.c.LoginUserController - 访问查询所有用户error

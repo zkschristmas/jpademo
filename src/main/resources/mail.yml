@@ -1,0 +1,9 @@
+mail:
+  smtp:
+    service: smtp.qq.com
+    prot: 587
+  from:
+    address: 412227425@qq.com
+    smtp:
+      pwd: zks19881225**520
+    nikename: 圣
