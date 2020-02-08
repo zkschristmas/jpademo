@@ -1,20 +1,14 @@
 package cn.yoursky.jpademo.entity.user;
 
 import lombok.Data;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
 
 @Entity
 @Data
 @Table(name = "login_user")
-public class LoginUser implements Serializable, UserDetails {
+public class LoginUser implements Serializable/*, UserDetails*/ {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,7 +24,7 @@ public class LoginUser implements Serializable, UserDetails {
     @Column(name = "test_validator")
     private String testValidator;
 
-    @ManyToMany
+  /*  @ManyToMany
     @JoinTable(name = "user_roles",
             joinColumns = {
                 @JoinColumn(name = "user_id")
@@ -38,14 +32,14 @@ public class LoginUser implements Serializable, UserDetails {
             inverseJoinColumns = {
                 @JoinColumn(name = "roles_id")
     })
-    private List<Roles> list;
+    private List<Roles> list;*/
 
-    @Override
+   /* @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         List<GrantedAuthority> authorities = new ArrayList<> ();
         List<Roles> roles = getList();
         for (Roles role : roles) {
-            authorities.add(new SimpleGrantedAuthority(role.getRname()));
+            authorities.add(new SimpleGrantedAuthority(role.getRName()));
         }
         return authorities;
     }
@@ -68,5 +62,5 @@ public class LoginUser implements Serializable, UserDetails {
     @Override
     public boolean isEnabled() {
         return false;
-    }
+    }*/
 }

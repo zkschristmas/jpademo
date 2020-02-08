@@ -17,5 +17,5 @@ public class Roles implements Serializable {
     private long rid;
 
     @Column(name = "r_name")
-    private String rname;
+    private String rName;
 }

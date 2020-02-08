@@ -1,12 +1,12 @@
 server:
   port: 8080
-#mysql
 spring:
+  #mysql
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dbtest?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbtest?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
     username: root
-    password: root
+    password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
     filters: stat,wall,log4j
     #最大活跃数
@@ -24,3 +24,16 @@ spring:
   jpa:
     show-sql: true
     database: mysql
+    #redis
+  redis:
+    host: 192.168.0.108
+    port: 6379
+    jedis:
+      pool:
+        max-idle: 10
+        max-wait: 300000ms
+        min-idle: 1
+        max-active: 8
+    lettuce:
+      shutdown-timeout: 0ms
+    timeout: 30000ms
